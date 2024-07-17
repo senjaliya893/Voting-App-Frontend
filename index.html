@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="https://voting-app-backend-jv93.onrender.com/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Your Favourite</h2>
+        <div class="progress-box" id="html">
+            <p>HTML</p>
+            <div class="progress-bar">
+            <span data="0%" 
+            class="percent-tag"></span>
+            </div>
+        </div>
+
+        <div class="progress-box" id="css">
+            <p>CSS</p>
+            <div class="progress-bar">
+            <span data="0%" 
+            class="percent-tag"></span>
+            </div>
+        </div>
+
+        <div class="progress-box" id="javascript">
+            <p>Javascript</p>
+            <div class="progress-bar">
+            <span data="0%" 
+            class="percent-tag"></span>
+            </div>
+        </div>
+
+        <div class="progress-box" id="react">
+            <p>React Js</p>
+            <div class="progress-bar">
+            <span data="0%" 
+            class="percent-tag"></span>
+            </div>
+        </div>
+
+        <div class="progress-box" id="python">
+            <p>Python</p>
+            <div class="progress-bar">
+            <span data="0%" 
+            class="percent-tag"></span>
+            </div>
+        </div>
+        <h2>TOTAL VOTES : <span id="totalVotes"></span></h2>
+    </div>
+
+    <script defer src="./script.js"></script>
+</body>
+</html>
